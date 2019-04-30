@@ -1,5 +1,5 @@
-.body {
-    background: #EFEFEF;
+body {
+    background-color: #efefef;
     margin: 0;
 }
 * {
@@ -22,7 +22,14 @@ hr {
 }
 .topNavBar {
     padding: 20px 0 20px 0;
+    position: fixed;
+    width: 100%;
+    left: 15px;
+    top: 0px;
 }
+.topNavBar-inner {
+    padding: 0 16px;
+  }
 .topNavBar nav {
     padding-top: 7px;
 }
@@ -76,7 +83,7 @@ hr {
     max-width: 940px;
     margin-right: auto;
     margin-left: auto;
-
+    background-color: #ffffff;
 }
 .userCard .welcome {
     display: inline-block;
